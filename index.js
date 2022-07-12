@@ -10,11 +10,19 @@ if (a + b < 4) {
 } */
 
 /* _________________________________ */
+
+let result;
 let a=3;
 let b=6;
 
 //write your code here 
-console.log(result)
+(a + b < 4) ? result = `Below` : result = `Over`
+console.log(result);
+
+let result2 = (a + b) < 4 ?  `Below` : `Over`;
+let a2=3;
+let b2=6;
+console.log(result2);
 
 /* _________________________________ */
 
@@ -32,7 +40,7 @@ else
 /* _________________________________ */
 
 let score = 42;
-let msg = "";
+let msg = score > 1337 ?  "This is a new highscore!" : "You need more points to beat the highscore!";
 
 //write your code here 
 
@@ -60,6 +68,10 @@ if (login == 'Employee') {
 
 
 //write your code here 
+    let message;
+    let login = "Employee"
+    login == "Employee" ? message = 'Hello' : login == "Director" ? message = 'Greetings' : login == '' ? message = 'No login' : message = ''
+  
 console.log(message)
 
 /* _________________________________ */
